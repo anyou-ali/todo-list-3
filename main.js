@@ -30,7 +30,7 @@ else{
 
 // charger les items dans l'interface utilisateur
 function loadList(array){
-     array.array.forEach(function(item){
+     array.forEach(function(item){
         addToDo(item.name, item.id, item.done, item.trash);
      });
 }
